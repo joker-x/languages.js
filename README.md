@@ -1,21 +1,21 @@
 languages.js
 ============
 
-A basic and lightweight replacement for Globalize. Store ISO 639-1 language database in a JSON object, accesible as node module or by browser javascript interpret. No dependencies.
+A basic and lightweight replacement for Globalize. Stores ISO 639-1 language database in a JSON object, accesible as node module or by browser javascript interpret. Without any dependencies.
 
 Features
 --------
 
-1.  The same file can be use from server side in nodejs to client side in javascript browser interpret.
+1.  The same file can be use from the server side in nodejs to the client side in javascript browser interpret.
 2.  Also includes the json file for using in other languages, for example PHP.
-3.  Support 138 languages
+3.  Supports 138 languages
 4.  Very lightweight, only 6.7K or 3.7K gzipped.
-5.  Very basic too, but enough for a lot of project: only return the ISO 639-1 language codes of languages supported, the English name, the nativeName and his direction.
+5.  Very basic too, but enough for a lot of projects: only return the ISO 639-1 language codes of supported languages, the English name, the nativeName and his own direction.
 
 Use
 ---
 
-From javascript the JSON object isn't accesible directly. You must use this public functions:
+From javascript the JSON object is not accesible directly. You must use this public functions:
 
 *  **languages.isValid(langcode)**: *Return boolean value, true if langcode is supported.*
 *  **languages.getAllLanguageCode()**: *Return an array with all the language codes supported.*
