@@ -27,7 +27,7 @@
 //no accesible directly, you must use isValid, getAllLanguageCode or getLanguageInfo
 var langs = {
   "attribute": {"name":0, "nativeName":1},
-  "rtl": ["ar","dv","fa","ha","he","ks","ku","ps","ur","yi","zh","zu"],
+  "rtl": ["ar","dv","fa","ha","he","ks","ku","ps","ur","yi"],
   "lang": {
     "aa":["Afar","Afar"],
     "ab":["Abkhazian","Аҧсуа"],
