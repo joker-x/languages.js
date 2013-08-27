@@ -27,7 +27,7 @@
 //no accesible directly, you must use isValid, getAllLanguageCode or getLanguageInfo
 var langs = {
   "attribute": {"name":0, "nativeName":1},
-  "rtl": ["ar","dv","fa","ha","he","ks","ku","ps","ur","yi"],
+  "rtl": {"ar":1,"dv":1,"fa":1,"ha":1,"he":1,"ks":1,"ku":1,"ps":1,"ur":1,"yi":1},
   "lang": {
     "aa":["Afar","Afar"],
     "ab":["Abkhazian","Аҧсуа"],
@@ -216,11 +216,7 @@ var langs = {
 };
 
 //return string "ltr" if the language is written from left to right or "rtl" in other case
-var getLangDirection = function(langcode) {
-  var result = "ltr";
-  if (langs.rtl.indexOf(langcode) != -1) result = "rtl";
-  return result;
-};
+var getLangDirection = (langs.rtl[langcode]) ? 'rtl' : 'ltr';
 
 /* PUBLIC */
 

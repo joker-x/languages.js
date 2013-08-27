@@ -1,6 +1,6 @@
 {
 "attribute": {"name":0, "nativeName":1},
-"rtl": ["ar","dv","fa","ha","he","ks","ku","ps","ur","yi"],
+"rtl": {"ar":1,"dv":1,"fa":1,"ha":1,"he":1,"ks":1,"ku":1,"ps":1,"ur":1,"yi":1},
 "lang": {
 "aa":["Afar","Afar"],
 "ab":["Abkhazian","Аҧсуа"],
