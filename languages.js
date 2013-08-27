@@ -216,7 +216,9 @@ var langs = {
 };
 
 //return string "ltr" if the language is written from left to right or "rtl" in other case
-var getLangDirection = (langs.rtl[langcode]) ? 'rtl' : 'ltr';
+var getLangDirection = function(langcode) {
+	return (langs.rtl[langcode]) ? 'rtl' : 'ltr';
+}
 
 /* PUBLIC */
 
